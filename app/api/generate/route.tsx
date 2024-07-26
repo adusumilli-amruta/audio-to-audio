@@ -6,6 +6,7 @@
  */
 export async function POST(request: Request): Promise<Response> {
   // Parse the JSON payload from the request body
+
   const requestBody = await request.json();
 
   // Check if the 'modelUrl' field is provided in the request body
