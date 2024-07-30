@@ -4,6 +4,7 @@ import LoadingDots from "./LoadingDots";
 import languages from "../utils/languages";
 import { Toaster, toast } from "react-hot-toast";
 
+
 const AudioTranslate = () => {
   const [loading, setLoading] = useState(false);
   const [language, setLanguage] = useState<string>(languages[0].value);
